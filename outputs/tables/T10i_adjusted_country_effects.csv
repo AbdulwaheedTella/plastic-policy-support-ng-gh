@@ -1,0 +1,13 @@
+subset,outcome,b_ghana,se,p,ci_lo,ci_hi,n,controls_harm
+All respondents,Harm perception (mean of 14),0.2091,0.0972,0.0315,0.0185,0.3996,685,False
+All respondents,Regulation and substitutes (mean of 4),0.1602,0.0634,0.0115,0.036,0.2845,659,True
+All respondents,Shared responsibility,0.1267,0.0724,0.0801,-0.0152,0.2687,665,True
+All respondents,Extra charges,0.1304,0.109,0.2318,-0.0833,0.344,648,True
+All respondents,Government responsibility,0.0029,0.1098,0.9789,-0.2123,0.2181,651,True
+All respondents,Make plastic cheaper,-0.4642,0.1116,0.0,-0.6829,-0.2455,636,True
+Excluding uniform-disagreement class,Harm perception (mean of 14),0.0859,0.0712,0.228,-0.0538,0.2255,576,False
+Excluding uniform-disagreement class,Regulation and substitutes (mean of 4),0.1251,0.0538,0.0201,0.0196,0.2306,565,True
+Excluding uniform-disagreement class,Shared responsibility,0.0994,0.0528,0.0601,-0.0042,0.2029,566,True
+Excluding uniform-disagreement class,Extra charges,0.1163,0.1217,0.3392,-0.1222,0.3549,558,True
+Excluding uniform-disagreement class,Government responsibility,-0.0076,0.12,0.9498,-0.2427,0.2276,558,True
+Excluding uniform-disagreement class,Make plastic cheaper,-0.5432,0.1209,0.0,-0.7801,-0.3063,550,True

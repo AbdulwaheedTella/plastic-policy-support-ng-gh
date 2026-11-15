@@ -1,0 +1,5 @@
+"model","chisq.scaled","df.scaled","pvalue.scaled","cfi.robust","tli.robust","rmsea.robust","rmsea.ci.lower.robust","rmsea.ci.upper.robust","srmr","chisq_diff_p","delta_cfi","delta_rmsea"
+"Ordinal configural",809.9503,262,0,0.9826,0.9797,0.0883,0.0814,0.0952,0.0465,NA,NA,NA
+"Ordinal thresholds",862.8416,298,0,0.9821,0.9816,0.084,0.0775,0.0906,0.0465,0.1405,-0.000500000000000056,-0.0043
+"Ordinal loadings",897.6794,314,0,0.9815,0.9819,0.0832,0.0769,0.0896,0.0468,0,-0.000599999999999934,-0.000800000000000009
+"Ordinal intercepts",963.9444,330,0,0.9799,0.9813,0.0846,0.0784,0.0908,0.0465,0,-0.00160000000000005,0.0014

@@ -1,0 +1,5 @@
+outcome,rho_mean_importance,rho_cross_median,rho_cross_lo,rho_cross_hi,rho_within_NG_median,rho_within_GH_median,top10_shared_n,top10_shared
+Polluter pays,0.6204,0.4129,0.1579,0.6353,0.5865,0.6291,4,Harms aquatic animals; Plastic found in our food; Reduces nutrient uptake by plants; Reduces water infiltration
+Legal action,0.5048,0.3527,0.1079,0.5756,0.5985,0.5749,4,Age group; Binning plastic will not harm environment; Causes erosion; Millions of tonnes reach waterways
+Extra charges,0.8037,0.4811,0.2143,0.6832,0.6221,0.5641,6,Binning plastic will not harm environment; Breeding ground for pests and disease vectors; Harbours harmful microorganisms; Harms terrestrial animals; Plastic cannot be reused; Plastic found in our food
+Biodegradable alternatives,0.6672,0.3614,0.1215,0.6011,0.5228,0.5835,5,Causes flooding; Harbours harmful microorganisms; Harmful to the environment; Harms aquatic animals; Reduces water infiltration

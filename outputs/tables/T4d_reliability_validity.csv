@@ -1,0 +1,5 @@
+"country","construct","alpha","omega","AVE","sqrt_AVE","latent_r","HTMT"
+"Nigeria","HARM",0.963,0.969,0.7,0.837,0.822,0.809
+"Nigeria","SUPPORT",0.866,0.839,0.623,0.789,0.822,0.809
+"Ghana","HARM",0.963,0.953,0.687,0.829,0.822,0.775
+"Ghana","SUPPORT",0.865,0.828,0.601,0.775,0.822,0.775

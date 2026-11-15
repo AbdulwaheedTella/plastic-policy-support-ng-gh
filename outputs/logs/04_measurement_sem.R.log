@@ -1,0 +1,104 @@
+Parallel analysis suggests that the number of factors =  3  and the number of components =  NA 
+SEM step complete
+
+Loading required namespace: GPArotation
+Warning messages:
+1: lavaan->lav_data_full():  
+   some cases are empty and will be ignored: 59 114 291 317 334 347 445 480 
+   485 493 656 715. 
+2: lavaan->lav_data_full():  
+   some cases are empty and will be ignored: 59 114 291 317 334 347 445 480 
+   485 493 656 715. 
+3: lavaan->lav_data_full():  
+   some cases are empty and will be ignored: 59 114 291 317 334 347 445 480. 
+4: lavaan->lav_data_full():  
+   some cases are empty and will be ignored: 59 114 291 317 334 347 445 480. 
+5: lavaan->lav_data_full():  
+   some cases are empty and will be ignored: 4 12 175 234. 
+6: lavaan->lav_data_full():  
+   some cases are empty and will be ignored: 4 12 175 234. 
+Warning messages:
+1: lavaan->lav_data_full():  
+   some cases are empty and will be ignored: 59 114 291 317 334 347 445 480. 
+2: lavaan->lav_data_full():  
+   some cases are empty and will be ignored: 4 12 175 234. 
+Warning messages:
+1: lavaan->lav_data_full():  
+   some cases are empty and will be ignored: 59 114 291 317 334 347 445 480. 
+2: lavaan->lav_data_full():  
+   some cases are empty and will be ignored: 485 493 656 715. 
+Warning messages:
+1: lavaan->lav_data_full():  
+   some cases are empty and will be ignored: 59 114 291 317 334 347 445 480. 
+2: lavaan->lav_data_full():  
+   some cases are empty and will be ignored: 485 493 656 715. 
+Warning messages:
+1: lavaan->lav_data_full():  
+   some cases are empty and will be ignored: 59 114 291 317 334 347 445 480. 
+2: lavaan->lav_data_full():  
+   some cases are empty and will be ignored: 485 493 656 715. 
+Warning messages:
+1: lavaan->lav_data_full():  
+   some cases are empty and will be ignored: 59 114 291 317 334 347 445 480. 
+2: lavaan->lav_data_full():  
+   some cases are empty and will be ignored: 485 493 656 715. 
+Warning message:
+lavaan->lav_model_vcov():  
+   The variance-covariance matrix of the estimated parameters (vcov) does not 
+   appear to be positive definite! The smallest eigenvalue (= -2.389043e-12) 
+   is smaller than zero. This may be a symptom that the model is not 
+   identified. 
+Warning message:
+lavaan->lav_model_vcov():  
+   The variance-covariance matrix of the estimated parameters (vcov) does not 
+   appear to be positive definite! The smallest eigenvalue (= 6.134980e-16) 
+   is close to zero. This may be a symptom that the model is not identified. 
+lavaan NOTE:  
+   Standard errors and confidence intervals of the (nonlinear) defined (:=) 
+   parameters are based on the first-order delta method; for strongly 
+   nonlinear definitions, se_def = "mc" (Monte Carlo) or se = "bootstrap" may 
+   be more accurate.
+Warning message:
+lavaan->lav_model_vcov():  
+   The variance-covariance matrix of the estimated parameters (vcov) does not 
+   appear to be positive definite! The smallest eigenvalue (= 6.755253e-16) 
+   is close to zero. This may be a symptom that the model is not identified. 
+Warning message:
+lavaan->lav_model_vcov():  
+   The variance-covariance matrix of the estimated parameters (vcov) does not 
+   appear to be positive definite! The smallest eigenvalue (= 1.004299e-15) 
+   is close to zero. This may be a symptom that the model is not identified. 
+Warning message:
+lavaan->lav_model_vcov():  
+   The variance-covariance matrix of the estimated parameters (vcov) does not 
+   appear to be positive definite! The smallest eigenvalue (= 7.007651e-15) 
+   is close to zero. This may be a symptom that the model is not identified. 
+Warning message:
+lavaan->lav_model_vcov():  
+   The variance-covariance matrix of the estimated parameters (vcov) does not 
+   appear to be positive definite! The smallest eigenvalue (= 1.170170e-15) 
+   is close to zero. This may be a symptom that the model is not identified. 
+Warning messages:
+1: lavaan->lav_data_full():  
+   26 cases were deleted in group Nigeria due to missing values in exogenous 
+   variable(s), while fixed_x = TRUE. 
+2: lavaan->lav_data_full():  
+   3 cases were deleted in group Ghana due to missing values in exogenous 
+   variable(s), while fixed_x = TRUE. 
+Warning messages:
+1: lavaan->lav_model_vcov():  
+   The variance-covariance matrix of the estimated parameters (vcov) does not 
+   appear to be positive definite! The smallest eigenvalue (= 6.779718e-16) 
+   is close to zero. This may be a symptom that the model is not identified. 
+2: lavaan->lav_data_full():  
+   some cases are empty and will be ignored: 51 97 245 265 276 288 357 387. 
+3: lavaan->lav_data_full():  
+   some cases are empty and will be ignored: 391 399 549 600. 
+4: lavaan->lav_data_full():  
+   some cases are empty and will be ignored: 51 97 245 265 276 288 357 387. 
+5: lavaan->lav_data_full():  
+   some cases are empty and will be ignored: 391 399 549 600. 
+6: lavaan->lav_data_full():  
+   some cases are empty and will be ignored: 51 97 245 265 276 288 357 387. 
+7: lavaan->lav_data_full():  
+   some cases are empty and will be ignored: 391 399 549 600. 

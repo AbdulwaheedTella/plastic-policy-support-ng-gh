@@ -1,0 +1,37 @@
+variable,category,Nigeria_n,Nigeria_pct,Ghana_n,Ghana_pct,chi2,df,p,cramers_v
+Gender,Female,163,34.5,73,28.4,2.58,1,0.1081,0.06
+Gender,Male,309,65.5,184,71.6,2.58,1,0.1081,0.06
+Age group (years),18-27,205,43.1,75,29.0,29.17,3,0.0,0.199
+Age group (years),28-37,129,27.1,57,22.0,29.17,3,0.0,0.199
+Age group (years),38-47,102,21.4,82,31.7,29.17,3,0.0,0.199
+Age group (years),48+,40,8.4,45,17.4,29.17,3,0.0,0.199
+Marital status,Married,225,47.3,133,51.4,3.33,2,0.2039,0.067
+Marital status,Single,246,51.7,120,46.3,3.33,2,0.2039,0.067
+Marital status,Widowed or divorced,5,1.1,6,2.3,3.33,2,0.2039,0.067
+Highest education,Below tertiary,46,9.7,7,2.7,11.17,1,0.0008,0.123
+Highest education,Tertiary,429,90.3,252,97.3,11.17,1,0.0008,0.123
+Discipline,Agriculture,39,8.3,30,11.6,147.16,5,0.0,0.449
+Discipline,Arts and Humanities,42,8.9,55,21.2,147.16,5,0.0,0.449
+Discipline,Education,36,7.6,12,4.6,147.16,5,0.0,0.449
+Discipline,Engineering and Technology,32,6.8,87,33.6,147.16,5,0.0,0.449
+Discipline,Medical and Health Sciences,20,4.2,9,3.5,147.16,5,0.0,0.449
+Discipline,Science,303,64.2,66,25.5,147.16,5,0.0,0.449
+Occupation,Academic or researcher,109,23.1,59,23.0,71.71,5,0.0,0.314
+Occupation,Business or self-employed,42,8.9,27,10.5,71.71,5,0.0,0.314
+Occupation,Other professional,13,2.8,41,16.0,71.71,5,0.0,0.314
+Occupation,Public sector,85,18.0,50,19.5,71.71,5,0.0,0.314
+Occupation,Retired or unemployed,8,1.7,17,6.6,71.71,5,0.0,0.314
+Occupation,Student,215,45.6,62,24.2,71.71,5,0.0,0.314
+Settlement type,City,308,64.7,155,60.1,4.22,2,0.1213,0.076
+Settlement type,Town,154,32.4,88,34.1,4.22,2,0.1213,0.076
+Settlement type,Village or suburb,14,2.9,15,5.8,4.22,2,0.1213,0.076
+Years in state/region,1-2,14,2.9,19,7.4,9.36,3,0.0249,0.113
+Years in state/region,2-5,48,10.1,33,12.8,9.36,3,0.0249,0.113
+Years in state/region,6-10,60,12.6,29,11.2,9.36,3,0.0249,0.113
+Years in state/region,>10,353,74.3,177,68.6,9.36,3,0.0249,0.113
+Highest income band,No,175,38.4,70,27.3,8.36,1,0.0038,0.108
+Highest income band,Yes,281,61.6,186,72.7,8.36,1,0.0038,0.108
+Household size,1-3,73,15.4,77,29.7,43.72,3,0.0,0.244
+Household size,10 and above,93,19.6,19,7.3,43.72,3,0.0,0.244
+Household size,4-6,207,43.6,132,51.0,43.72,3,0.0,0.244
+Household size,7-9,102,21.5,31,12.0,43.72,3,0.0,0.244

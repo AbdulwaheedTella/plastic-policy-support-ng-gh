@@ -1,0 +1,199 @@
+"spec","country","outcome","predictor","beta","p"
+"Main: MLR-FIML, partial scalar","Nigeria","HARM","engagement",0.129,0.00789
+"Main: MLR-FIML, partial scalar","Nigeria","everybody","HARM",0.796,0
+"Main: MLR-FIML, partial scalar","Nigeria","everybody","engagement",0.039,0.228
+"Main: MLR-FIML, partial scalar","Nigeria","SUPPORT","everybody",0.754,0
+"Main: MLR-FIML, partial scalar","Nigeria","SUPPORT","HARM",0.234,1.24e-06
+"Main: MLR-FIML, partial scalar","Nigeria","SUPPORT","engagement",-0.004,0.874
+"Main: MLR-FIML, partial scalar","Nigeria","charges","everybody",0.169,0.00746
+"Main: MLR-FIML, partial scalar","Nigeria","charges","HARM",0.392,9.69e-10
+"Main: MLR-FIML, partial scalar","Nigeria","charges","engagement",-0.031,0.432
+"Main: MLR-FIML, partial scalar","Nigeria","gov_resp","everybody",0.224,0.000518
+"Main: MLR-FIML, partial scalar","Nigeria","gov_resp","HARM",0.159,0.0235
+"Main: MLR-FIML, partial scalar","Nigeria","gov_resp","engagement",-0.035,0.433
+"Main: MLR-FIML, partial scalar","Nigeria","cheaper_plastic","everybody",0.164,0.0305
+"Main: MLR-FIML, partial scalar","Nigeria","cheaper_plastic","HARM",0.01,0.907
+"Main: MLR-FIML, partial scalar","Nigeria","cheaper_plastic","engagement",-0.021,0.664
+"Main: MLR-FIML, partial scalar","Ghana","HARM","engagement",0.171,0.0195
+"Main: MLR-FIML, partial scalar","Ghana","everybody","HARM",0.751,0
+"Main: MLR-FIML, partial scalar","Ghana","everybody","engagement",0.082,0.0462
+"Main: MLR-FIML, partial scalar","Ghana","SUPPORT","everybody",0.687,0
+"Main: MLR-FIML, partial scalar","Ghana","SUPPORT","HARM",0.294,4.77e-05
+"Main: MLR-FIML, partial scalar","Ghana","SUPPORT","engagement",0.038,0.25
+"Main: MLR-FIML, partial scalar","Ghana","charges","everybody",0.091,0.148
+"Main: MLR-FIML, partial scalar","Ghana","charges","HARM",0.431,3.01e-09
+"Main: MLR-FIML, partial scalar","Ghana","charges","engagement",0.046,0.42
+"Main: MLR-FIML, partial scalar","Ghana","gov_resp","everybody",0.128,0.0376
+"Main: MLR-FIML, partial scalar","Ghana","gov_resp","HARM",0.171,0.0209
+"Main: MLR-FIML, partial scalar","Ghana","gov_resp","engagement",0.007,0.904
+"Main: MLR-FIML, partial scalar","Ghana","cheaper_plastic","everybody",0.087,0.219
+"Main: MLR-FIML, partial scalar","Ghana","cheaper_plastic","HARM",-0.091,0.271
+"Main: MLR-FIML, partial scalar","Ghana","cheaper_plastic","engagement",-0.085,0.22
+"Excluding quality-flagged responses","Nigeria","HARM","engagement",0.138,0.00596
+"Excluding quality-flagged responses","Nigeria","everybody","HARM",0.808,0
+"Excluding quality-flagged responses","Nigeria","everybody","engagement",0.031,0.357
+"Excluding quality-flagged responses","Nigeria","SUPPORT","everybody",0.742,0
+"Excluding quality-flagged responses","Nigeria","SUPPORT","HARM",0.246,7.72e-07
+"Excluding quality-flagged responses","Nigeria","SUPPORT","engagement",-0.007,0.784
+"Excluding quality-flagged responses","Nigeria","charges","everybody",0.198,0.00313
+"Excluding quality-flagged responses","Nigeria","charges","HARM",0.338,6.44e-07
+"Excluding quality-flagged responses","Nigeria","charges","engagement",-0.038,0.37
+"Excluding quality-flagged responses","Nigeria","gov_resp","everybody",0.243,0.000264
+"Excluding quality-flagged responses","Nigeria","gov_resp","HARM",0.13,0.0739
+"Excluding quality-flagged responses","Nigeria","gov_resp","engagement",-0.039,0.394
+"Excluding quality-flagged responses","Nigeria","cheaper_plastic","everybody",0.168,0.0286
+"Excluding quality-flagged responses","Nigeria","cheaper_plastic","HARM",-0.026,0.75
+"Excluding quality-flagged responses","Nigeria","cheaper_plastic","engagement",-0.019,0.71
+"Excluding quality-flagged responses","Ghana","HARM","engagement",0.176,0.0229
+"Excluding quality-flagged responses","Ghana","everybody","HARM",0.697,6.66e-15
+"Excluding quality-flagged responses","Ghana","everybody","engagement",0.11,0.0191
+"Excluding quality-flagged responses","Ghana","SUPPORT","everybody",0.679,0
+"Excluding quality-flagged responses","Ghana","SUPPORT","HARM",0.302,4.29e-05
+"Excluding quality-flagged responses","Ghana","SUPPORT","engagement",0.033,0.378
+"Excluding quality-flagged responses","Ghana","charges","everybody",0.104,0.0893
+"Excluding quality-flagged responses","Ghana","charges","HARM",0.37,4.84e-07
+"Excluding quality-flagged responses","Ghana","charges","engagement",0.053,0.393
+"Excluding quality-flagged responses","Ghana","gov_resp","everybody",0.136,0.0184
+"Excluding quality-flagged responses","Ghana","gov_resp","HARM",0.113,0.12
+"Excluding quality-flagged responses","Ghana","gov_resp","engagement",0.013,0.833
+"Excluding quality-flagged responses","Ghana","cheaper_plastic","everybody",0.098,0.146
+"Excluding quality-flagged responses","Ghana","cheaper_plastic","HARM",-0.118,0.14
+"Excluding quality-flagged responses","Ghana","cheaper_plastic","engagement",-0.105,0.151
+"Random-intercept response-style factor","Nigeria","HARM","engagement",0.148,0.00279
+"Random-intercept response-style factor","Nigeria","everybody","HARM",0.737,0
+"Random-intercept response-style factor","Nigeria","everybody","engagement",0.038,0.248
+"Random-intercept response-style factor","Nigeria","SUPPORT","everybody",0.766,0
+"Random-intercept response-style factor","Nigeria","SUPPORT","HARM",0.223,0.00349
+"Random-intercept response-style factor","Nigeria","SUPPORT","engagement",0.02,0.477
+"Random-intercept response-style factor","Nigeria","charges","everybody",0.201,0.00098
+"Random-intercept response-style factor","Nigeria","charges","HARM",0.254,0.00024
+"Random-intercept response-style factor","Nigeria","charges","engagement",-0.02,0.62
+"Random-intercept response-style factor","Nigeria","gov_resp","everybody",0.195,0.00348
+"Random-intercept response-style factor","Nigeria","gov_resp","HARM",0.071,0.339
+"Random-intercept response-style factor","Nigeria","gov_resp","engagement",-0.018,0.679
+"Random-intercept response-style factor","Nigeria","cheaper_plastic","everybody",0.205,0.00708
+"Random-intercept response-style factor","Nigeria","cheaper_plastic","HARM",-0.191,0.0306
+"Random-intercept response-style factor","Nigeria","cheaper_plastic","engagement",0.002,0.959
+"Random-intercept response-style factor","Ghana","HARM","engagement",0.199,0.00899
+"Random-intercept response-style factor","Ghana","everybody","HARM",0.66,0
+"Random-intercept response-style factor","Ghana","everybody","engagement",0.09,0.0344
+"Random-intercept response-style factor","Ghana","SUPPORT","everybody",0.628,5.99e-09
+"Random-intercept response-style factor","Ghana","SUPPORT","HARM",0.355,0.00121
+"Random-intercept response-style factor","Ghana","SUPPORT","engagement",0.092,0.0373
+"Random-intercept response-style factor","Ghana","charges","everybody",0.1,0.104
+"Random-intercept response-style factor","Ghana","charges","HARM",0.327,4.97e-05
+"Random-intercept response-style factor","Ghana","charges","engagement",0.083,0.14
+"Random-intercept response-style factor","Ghana","gov_resp","everybody",0.097,0.113
+"Random-intercept response-style factor","Ghana","gov_resp","HARM",0.087,0.273
+"Random-intercept response-style factor","Ghana","gov_resp","engagement",0.061,0.284
+"Random-intercept response-style factor","Ghana","cheaper_plastic","everybody",0.114,0.116
+"Random-intercept response-style factor","Ghana","cheaper_plastic","HARM",-0.312,0.000774
+"Random-intercept response-style factor","Ghana","cheaper_plastic","engagement",0.005,0.944
+"Ordinal WLSMV (listwise)","Nigeria","HARM","engagement",0.102,0.0835
+"Ordinal WLSMV (listwise)","Nigeria","everybody","HARM",0.675,0
+"Ordinal WLSMV (listwise)","Nigeria","everybody","engagement",0.034,0.488
+"Ordinal WLSMV (listwise)","Nigeria","SUPPORT","everybody",0.541,0
+"Ordinal WLSMV (listwise)","Nigeria","SUPPORT","HARM",0.428,0
+"Ordinal WLSMV (listwise)","Nigeria","SUPPORT","engagement",-0.004,0.904
+"Ordinal WLSMV (listwise)","Nigeria","charges","everybody",0.193,0.00512
+"Ordinal WLSMV (listwise)","Nigeria","charges","HARM",0.357,1.05e-07
+"Ordinal WLSMV (listwise)","Nigeria","charges","engagement",-0.062,0.202
+"Ordinal WLSMV (listwise)","Nigeria","gov_resp","everybody",0.131,0.0652
+"Ordinal WLSMV (listwise)","Nigeria","gov_resp","HARM",0.213,0.00545
+"Ordinal WLSMV (listwise)","Nigeria","gov_resp","engagement",-0.03,0.589
+"Ordinal WLSMV (listwise)","Nigeria","cheaper_plastic","everybody",0.077,0.384
+"Ordinal WLSMV (listwise)","Nigeria","cheaper_plastic","HARM",0.036,0.695
+"Ordinal WLSMV (listwise)","Nigeria","cheaper_plastic","engagement",-0.09,0.138
+"Ordinal WLSMV (listwise)","Ghana","HARM","engagement",0.085,0.255
+"Ordinal WLSMV (listwise)","Ghana","everybody","HARM",0.701,2.44e-15
+"Ordinal WLSMV (listwise)","Ghana","everybody","engagement",0.108,0.0358
+"Ordinal WLSMV (listwise)","Ghana","SUPPORT","everybody",0.459,0.00365
+"Ordinal WLSMV (listwise)","Ghana","SUPPORT","HARM",0.487,3.72e-05
+"Ordinal WLSMV (listwise)","Ghana","SUPPORT","engagement",0.036,0.541
+"Ordinal WLSMV (listwise)","Ghana","charges","everybody",0.159,0.619
+"Ordinal WLSMV (listwise)","Ghana","charges","HARM",0.352,0.152
+"Ordinal WLSMV (listwise)","Ghana","charges","engagement",0.023,0.783
+"Ordinal WLSMV (listwise)","Ghana","gov_resp","everybody",0.27,0.235
+"Ordinal WLSMV (listwise)","Ghana","gov_resp","HARM",0.041,0.83
+"Ordinal WLSMV (listwise)","Ghana","gov_resp","engagement",0.082,0.268
+"Ordinal WLSMV (listwise)","Ghana","cheaper_plastic","everybody",0.044,0.839
+"Ordinal WLSMV (listwise)","Ghana","cheaper_plastic","HARM",-0.012,0.951
+"Ordinal WLSMV (listwise)","Ghana","cheaper_plastic","engagement",-0.107,0.194
+"Alternative: norm item as SUPPORT indicator","Nigeria","HARM","engagement",0.13,0.00689
+"Alternative: norm item as SUPPORT indicator","Nigeria","SUPPORT","HARM",0.838,0
+"Alternative: norm item as SUPPORT indicator","Nigeria","SUPPORT","engagement",0.033,0.331
+"Alternative: norm item as SUPPORT indicator","Nigeria","charges","HARM",0.527,0
+"Alternative: norm item as SUPPORT indicator","Nigeria","charges","engagement",-0.01,0.773
+"Alternative: norm item as SUPPORT indicator","Nigeria","gov_resp","HARM",0.34,6.66e-16
+"Alternative: norm item as SUPPORT indicator","Nigeria","gov_resp","engagement",-0.015,0.71
+"Alternative: norm item as SUPPORT indicator","Nigeria","cheaper_plastic","HARM",0.145,0.00354
+"Alternative: norm item as SUPPORT indicator","Nigeria","cheaper_plastic","engagement",0,0.997
+"Alternative: norm item as SUPPORT indicator","Ghana","HARM","engagement",0.171,0.0192
+"Alternative: norm item as SUPPORT indicator","Ghana","SUPPORT","HARM",0.817,0
+"Alternative: norm item as SUPPORT indicator","Ghana","SUPPORT","engagement",0.088,0.0508
+"Alternative: norm item as SUPPORT indicator","Ghana","charges","HARM",0.5,0
+"Alternative: norm item as SUPPORT indicator","Ghana","charges","engagement",0.023,0.548
+"Alternative: norm item as SUPPORT indicator","Ghana","gov_resp","HARM",0.264,2.45e-06
+"Alternative: norm item as SUPPORT indicator","Ghana","gov_resp","engagement",-0.014,0.734
+"Alternative: norm item as SUPPORT indicator","Ghana","cheaper_plastic","HARM",-0.03,0.662
+"Alternative: norm item as SUPPORT indicator","Ghana","cheaper_plastic","engagement",-0.105,0.0313
+"Covariates fixed (fixed.x = TRUE)","Nigeria","HARM","engagement",0.137,0.00533
+"Covariates fixed (fixed.x = TRUE)","Nigeria","everybody","HARM",0.793,0
+"Covariates fixed (fixed.x = TRUE)","Nigeria","everybody","engagement",0.039,0.243
+"Covariates fixed (fixed.x = TRUE)","Nigeria","SUPPORT","everybody",0.757,0
+"Covariates fixed (fixed.x = TRUE)","Nigeria","SUPPORT","HARM",0.231,2.26e-06
+"Covariates fixed (fixed.x = TRUE)","Nigeria","SUPPORT","engagement",-0.007,0.774
+"Covariates fixed (fixed.x = TRUE)","Nigeria","charges","everybody",0.175,0.0061
+"Covariates fixed (fixed.x = TRUE)","Nigeria","charges","HARM",0.399,5.78e-10
+"Covariates fixed (fixed.x = TRUE)","Nigeria","charges","engagement",-0.039,0.34
+"Covariates fixed (fixed.x = TRUE)","Nigeria","gov_resp","everybody",0.22,0.000794
+"Covariates fixed (fixed.x = TRUE)","Nigeria","gov_resp","HARM",0.167,0.0198
+"Covariates fixed (fixed.x = TRUE)","Nigeria","gov_resp","engagement",-0.031,0.497
+"Covariates fixed (fixed.x = TRUE)","Nigeria","cheaper_plastic","everybody",0.172,0.0254
+"Covariates fixed (fixed.x = TRUE)","Nigeria","cheaper_plastic","HARM",0.003,0.97
+"Covariates fixed (fixed.x = TRUE)","Nigeria","cheaper_plastic","engagement",-0.034,0.496
+"Covariates fixed (fixed.x = TRUE)","Ghana","HARM","engagement",0.175,0.0174
+"Covariates fixed (fixed.x = TRUE)","Ghana","everybody","HARM",0.752,0
+"Covariates fixed (fixed.x = TRUE)","Ghana","everybody","engagement",0.078,0.063
+"Covariates fixed (fixed.x = TRUE)","Ghana","SUPPORT","everybody",0.686,0
+"Covariates fixed (fixed.x = TRUE)","Ghana","SUPPORT","HARM",0.3,3.53e-05
+"Covariates fixed (fixed.x = TRUE)","Ghana","SUPPORT","engagement",0.036,0.285
+"Covariates fixed (fixed.x = TRUE)","Ghana","charges","everybody",0.091,0.151
+"Covariates fixed (fixed.x = TRUE)","Ghana","charges","HARM",0.43,4.98e-09
+"Covariates fixed (fixed.x = TRUE)","Ghana","charges","engagement",0.046,0.426
+"Covariates fixed (fixed.x = TRUE)","Ghana","gov_resp","everybody",0.127,0.0419
+"Covariates fixed (fixed.x = TRUE)","Ghana","gov_resp","HARM",0.168,0.0253
+"Covariates fixed (fixed.x = TRUE)","Ghana","gov_resp","engagement",0.012,0.838
+"Covariates fixed (fixed.x = TRUE)","Ghana","cheaper_plastic","everybody",0.09,0.211
+"Covariates fixed (fixed.x = TRUE)","Ghana","cheaper_plastic","HARM",-0.089,0.285
+"Covariates fixed (fixed.x = TRUE)","Ghana","cheaper_plastic","engagement",-0.091,0.192
+"Excluding uniform-disagreement class","Nigeria","HARM","engagement",0.141,0.0108
+"Excluding uniform-disagreement class","Nigeria","everybody","HARM",0.321,2.4e-05
+"Excluding uniform-disagreement class","Nigeria","everybody","engagement",0.109,0.0612
+"Excluding uniform-disagreement class","Nigeria","SUPPORT","everybody",0.576,2.23e-12
+"Excluding uniform-disagreement class","Nigeria","SUPPORT","HARM",0.167,0.0102
+"Excluding uniform-disagreement class","Nigeria","SUPPORT","engagement",0.018,0.742
+"Excluding uniform-disagreement class","Nigeria","charges","everybody",0.038,0.443
+"Excluding uniform-disagreement class","Nigeria","charges","HARM",0.218,2.35e-05
+"Excluding uniform-disagreement class","Nigeria","charges","engagement",-0.019,0.724
+"Excluding uniform-disagreement class","Nigeria","gov_resp","everybody",-0.033,0.487
+"Excluding uniform-disagreement class","Nigeria","gov_resp","HARM",0.039,0.484
+"Excluding uniform-disagreement class","Nigeria","gov_resp","engagement",-0.038,0.498
+"Excluding uniform-disagreement class","Nigeria","cheaper_plastic","everybody",-0.022,0.667
+"Excluding uniform-disagreement class","Nigeria","cheaper_plastic","HARM",-0.128,0.0371
+"Excluding uniform-disagreement class","Nigeria","cheaper_plastic","engagement",0.007,0.899
+"Excluding uniform-disagreement class","Ghana","HARM","engagement",0.015,0.843
+"Excluding uniform-disagreement class","Ghana","everybody","HARM",0.285,0.000248
+"Excluding uniform-disagreement class","Ghana","everybody","engagement",0.115,0.0797
+"Excluding uniform-disagreement class","Ghana","SUPPORT","everybody",0.467,1.09e-06
+"Excluding uniform-disagreement class","Ghana","SUPPORT","HARM",0.253,0.00232
+"Excluding uniform-disagreement class","Ghana","SUPPORT","engagement",0.064,0.41
+"Excluding uniform-disagreement class","Ghana","charges","everybody",0.01,0.817
+"Excluding uniform-disagreement class","Ghana","charges","HARM",0.299,4.93e-06
+"Excluding uniform-disagreement class","Ghana","charges","engagement",0.061,0.371
+"Excluding uniform-disagreement class","Ghana","gov_resp","everybody",-0.048,0.237
+"Excluding uniform-disagreement class","Ghana","gov_resp","HARM",0.045,0.499
+"Excluding uniform-disagreement class","Ghana","gov_resp","engagement",0.024,0.704
+"Excluding uniform-disagreement class","Ghana","cheaper_plastic","everybody",-0.03,0.479
+"Excluding uniform-disagreement class","Ghana","cheaper_plastic","HARM",-0.054,0.393
+"Excluding uniform-disagreement class","Ghana","cheaper_plastic","engagement",-0.136,0.0537

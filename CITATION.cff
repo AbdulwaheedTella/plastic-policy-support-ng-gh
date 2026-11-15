@@ -1,0 +1,63 @@
+cff-version: 1.2.0
+message: "If you use these data or code, please cite the article and this archive."
+title: "What explains public support for plastic policy? A comparative study of Nigeria and Ghana: data, code and outputs"
+abstract: >-
+  De-identified survey data (740 respondents in Nigeria and Ghana), a single Jupyter notebook
+  (Python and R) and every table and figure for the article "What explains public support for
+  plastic policy? A comparative study of Nigeria and Ghana". The notebook covers measurement
+  invariance, multi-group structural equation modelling, latent class analysis, machine learning
+  with cross-country transfer and SHAP, and coding of open-ended answers.
+type: software
+version: 1.0.0
+date-released: "2026-11-15"
+license: MIT
+repository-code: "https://github.com/AbdulwaheedTella/plastic-policy-support-ng-gh"
+authors:
+  - family-names: Saba
+    given-names: Abdulwakil Olawale
+    orcid: "https://orcid.org/0000-0002-0329-9664"
+    affiliation: "Universiti Putra Malaysia; Lagos State University"
+  - family-names: Mohammed
+    given-names: Mutala
+    orcid: "https://orcid.org/0000-0001-6857-4893"
+    affiliation: "CSIR - Institute of Industrial Research, Ghana"
+  - family-names: Ibrahim
+    given-names: Musa Adamu
+    orcid: "https://orcid.org/0000-0002-2937-8774"
+    affiliation: "University of Maiduguri"
+  - family-names: Tella
+    given-names: Abdulwaheed
+    orcid: "https://orcid.org/0000-0002-4380-3343"
+    affiliation: "Monash University Malaysia"
+  - family-names: Amachree
+    given-names: Dokuboba
+    orcid: "https://orcid.org/0009-0005-2666-6622"
+    affiliation: "University of Plymouth; Rivers State University"
+keywords:
+  - plastic pollution
+  - policy support
+  - measurement invariance
+  - structural equation modelling
+  - latent class analysis
+  - SHAP
+  - transfer learning
+  - Nigeria
+  - Ghana
+# After the article is published, uncomment and fill in so GitHub's "Cite this repository" points to it:
+# preferred-citation:
+#   type: article
+#   title: "What explains public support for plastic policy? A comparative study of Nigeria and Ghana"
+#   authors:
+#     - family-names: Saba
+#       given-names: Abdulwakil Olawale
+#     - family-names: Mohammed
+#       given-names: Mutala
+#     - family-names: Ibrahim
+#       given-names: Musa Adamu
+#     - family-names: Tella
+#       given-names: Abdulwaheed
+#     - family-names: Amachree
+#       given-names: Dokuboba
+#   journal: "JOURNAL NAME"
+#   year: 2026
+#   doi: "10.xxxx/xxxxx"

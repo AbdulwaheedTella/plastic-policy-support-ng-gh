@@ -1,0 +1,26 @@
+item,label,block,Nigeria_n,Nigeria_mean,Nigeria_sd,Nigeria_pct_agree,Ghana_n,Ghana_mean,Ghana_sd,Ghana_pct_agree,U,p,r_rb,r_rb_lo,r_rb_hi,missing_pct_NG,missing_pct_GH,q_bh
+flood,Causes flooding,Harm perception,451,3.6075,1.5082,65.8537,254,4.1102,1.3816,78.7402,69699.0,0.0,0.2169,0.1329,0.2935,6.237,1.9305,0.0
+erosion,Causes erosion,Harm perception,427,3.4309,1.4082,55.2693,240,3.3,1.3326,48.75,47927.0,0.1549,-0.0647,-0.1477,0.0191,11.2266,7.3359,0.176
+vector,Breeding ground for pests and disease vectors,Harm perception,433,3.6467,1.4101,66.2818,248,4.0484,1.3277,77.8226,63471.5,0.0,0.1821,0.096,0.2645,9.9792,4.2471,0.0001
+infiltration,Reduces water infiltration,Harm perception,429,3.5944,1.3837,65.2681,242,3.8182,1.3233,67.3554,56980.5,0.0285,0.0977,0.0091,0.1808,10.8108,6.5637,0.0419
+buildings,Destroys buildings,Harm perception,417,3.2494,1.3193,48.9209,242,3.281,1.2736,45.0413,50840.0,0.8679,0.0076,-0.0836,0.094,13.3056,6.5637,0.8679
+toxic,Transports toxic chemicals,Harm perception,433,3.6351,1.3763,65.358,240,3.8333,1.2926,68.3333,56185.5,0.0683,0.0813,-0.0035,0.1688,9.9792,7.3359,0.0853
+microbes,Harbours harmful microorganisms,Harm perception,430,3.6767,1.3927,67.2093,241,3.917,1.2589,75.5187,56386.5,0.0465,0.0882,0.0025,0.173,10.6029,6.9498,0.0612
+nutrients,Reduces nutrient uptake by plants,Harm perception,436,3.5505,1.4319,64.2202,244,3.8156,1.2777,69.2623,58086.0,0.0382,0.092,0.008,0.1793,9.3555,5.7915,0.053
+bags_billions,Billions of bags discarded yearly,Harm perception,438,3.8721,1.4405,74.6575,248,4.1613,1.2877,81.0484,60812.0,0.0046,0.1197,0.041,0.1994,8.9397,4.2471,0.0088
+waterways_tons,Millions of tonnes reach waterways,Harm perception,441,3.8435,1.4367,74.1497,248,4.2097,1.2356,81.0484,63185.0,0.0002,0.1555,0.0736,0.232,8.316,4.2471,0.0005
+aquatic,Harms aquatic animals,Harm perception,441,3.771,1.4969,70.9751,247,4.2146,1.2998,81.7814,64371.5,0.0,0.1819,0.0995,0.2636,8.316,4.6332,0.0001
+food,Plastic found in our food,Harm perception,426,3.1127,1.3483,43.4272,246,3.626,1.2771,59.3496,63823.0,0.0,0.218,0.1312,0.2993,11.4345,5.0193,0.0
+terrestrial,Harms terrestrial animals,Harm perception,432,3.5417,1.3888,64.1204,248,3.9355,1.2773,71.7742,62708.0,0.0001,0.1706,0.0859,0.2536,10.1871,4.2471,0.0003
+harmful_env,Harmful to the environment,Harm perception,435,3.8552,1.4367,73.1034,248,4.3105,1.2932,83.4677,66105.5,0.0,0.2255,0.1513,0.3069,9.5634,4.2471,0.0
+trash_no_harm,Binning plastic will not harm environment,Other beliefs,434,2.8618,1.4888,40.3226,244,2.8033,1.4804,36.8852,51676.0,0.595,-0.024,-0.1123,0.0621,9.7713,5.7915,0.6468
+not_recycled,Plastic products are not recycled,Other beliefs,434,2.1567,1.2907,18.894,245,2.4204,1.408,25.7143,58452.0,0.0243,0.0994,0.0127,0.1865,9.7713,5.4054,0.038
+not_reused,Plastic cannot be reused,Other beliefs,433,2.0046,1.2802,16.3972,246,1.8618,1.2475,13.0081,49579.0,0.104,-0.0691,-0.1502,0.0149,9.9792,5.0193,0.1239
+charges,Extra charges on plastics reduce pollution,Other beliefs,431,3.051,1.4394,43.6195,249,3.3655,1.4195,50.2008,60310.5,0.0059,0.1239,0.034,0.2067,10.395,3.861,0.0105
+gov_resp,Management is government's responsibility,Responsibility and instruments,441,2.8095,1.3399,36.2812,248,2.8468,1.3914,39.1129,55381.0,0.7757,0.0127,-0.0769,0.101,8.316,4.2471,0.8081
+everybody,Everybody can play a role,Responsibility and instruments,450,3.9778,1.425,77.3333,251,4.3904,1.1554,88.0478,66152.0,0.0,0.1714,0.0936,0.2473,6.4449,3.0888,0.0001
+polluter_pays,Polluter-pays principle,Responsibility and instruments,439,3.7403,1.3518,70.8428,245,4.0327,1.1375,79.5918,59365.5,0.0172,0.1039,0.0178,0.182,8.7318,5.4054,0.0287
+legal,Legal action,Responsibility and instruments,436,3.6514,1.2999,67.2018,242,3.9504,1.1762,71.4876,59647.0,0.0032,0.1306,0.0474,0.2225,9.3555,6.5637,0.0066
+cheaper_plastic,Make plastic products cheaper,Responsibility and instruments,429,2.5967,1.2836,27.2727,240,2.0917,1.2708,16.6667,39475.5,0.0,-0.2332,-0.3229,-0.148,10.8108,7.3359,0.0
+biodeg_alt,Provide biodegradable alternatives,Responsibility and instruments,435,3.7609,1.3671,69.4253,242,4.219,1.1584,80.1653,63421.0,0.0,0.2049,0.1243,0.2839,9.5634,6.5637,0.0
+cheap_bioplastic,Provide affordable bioplastics,Responsibility and instruments,437,3.4485,1.411,56.9794,242,3.8636,1.2955,69.0083,62028.5,0.0001,0.1731,0.0879,0.2562,9.1476,6.5637,0.0003

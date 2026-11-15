@@ -1,0 +1,56 @@
+# Re-runs the whole analysis on a clean machine and checks every table against the published copy.
+# Start it by hand: GitHub > Actions > "Reproduce the analysis" > Run workflow.
+# A full run takes about 2 to 3 hours. The regenerated outputs are attached to the run as an artifact.
+name: Reproduce the analysis
+
+on:
+  workflow_dispatch:
+    inputs:
+      quick:
+        description: "Quick test run (fewer bootstrap draws; bootstrap-based tables will differ)"
+        type: boolean
+        default: false
+
+jobs:
+  reproduce:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: "4.3.3"
+
+      - name: Install Python packages
+        run: pip install -r requirements.txt
+
+      - name: Install R packages (pinned versions)
+        run: Rscript install_R_packages.R
+
+      - name: Keep a copy of the published tables
+        run: python compare_tables.py --snapshot
+
+      - name: Switch to quick mode
+        if: ${{ inputs.quick }}
+        run: sed -i 's/"QUICK = False /"QUICK = True  /' Plastic_NG_GH_analysis.ipynb && grep -c '"QUICK = True' Plastic_NG_GH_analysis.ipynb
+
+      - name: Run the notebook
+        run: jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.timeout=-1 Plastic_NG_GH_analysis.ipynb
+
+      - name: Compare tables with the published copy
+        run: python compare_tables.py ${{ inputs.quick && '|| true' || '' }}
+
+      - name: Upload regenerated outputs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: regenerated-outputs
+          path: |
+            outputs/
+            Plastic_NG_GH_analysis.ipynb

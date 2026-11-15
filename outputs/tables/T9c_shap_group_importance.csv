@@ -1,0 +1,49 @@
+outcome,country,group,mean_abs_group_shap,lo,hi
+Polluter pays,Nigeria,Demographics,0.23095,0.11829,0.38307
+Polluter pays,Nigeria,Engagement and awareness,0.19506,0.03663,0.39377
+Polluter pays,Nigeria,Economic beliefs,0.2218,0.05213,0.46738
+Polluter pays,Nigeria,Plastic use,0.03697,0.0,0.11495
+Polluter pays,Nigeria,Harm beliefs,1.39073,1.14692,1.59946
+Polluter pays,Nigeria,Recycling beliefs,0.19334,0.07913,0.36177
+Polluter pays,Ghana,Demographics,0.32135,0.09773,0.59773
+Polluter pays,Ghana,Engagement and awareness,0.23109,0.02355,0.60944
+Polluter pays,Ghana,Economic beliefs,0.04719,0.0,0.29257
+Polluter pays,Ghana,Plastic use,0.00738,0.0,0.04886
+Polluter pays,Ghana,Harm beliefs,1.04842,0.76961,1.36294
+Polluter pays,Ghana,Recycling beliefs,0.30018,0.0789,0.58139
+Legal action,Nigeria,Demographics,0.48486,0.32244,0.62103
+Legal action,Nigeria,Engagement and awareness,0.26882,0.10228,0.46288
+Legal action,Nigeria,Economic beliefs,0.09485,0.01685,0.20509
+Legal action,Nigeria,Plastic use,0.06319,0.00578,0.18914
+Legal action,Nigeria,Harm beliefs,1.20155,1.02497,1.46576
+Legal action,Nigeria,Recycling beliefs,0.2875,0.14065,0.45493
+Legal action,Ghana,Demographics,0.39277,0.19551,0.62913
+Legal action,Ghana,Engagement and awareness,0.19114,0.03861,0.3592
+Legal action,Ghana,Economic beliefs,0.13844,0.0,0.33062
+Legal action,Ghana,Plastic use,0.00456,0.0,0.03612
+Legal action,Ghana,Harm beliefs,0.92804,0.70102,1.21092
+Legal action,Ghana,Recycling beliefs,0.2588,0.07652,0.53169
+Extra charges,Nigeria,Demographics,0.29679,0.18142,0.42509
+Extra charges,Nigeria,Engagement and awareness,0.1069,0.04139,0.18737
+Extra charges,Nigeria,Economic beliefs,0.07836,0.02108,0.18051
+Extra charges,Nigeria,Plastic use,0.08196,0.01321,0.19392
+Extra charges,Nigeria,Harm beliefs,1.24909,1.08546,1.43134
+Extra charges,Nigeria,Recycling beliefs,0.51356,0.34645,0.69279
+Extra charges,Ghana,Demographics,0.35102,0.19667,0.52909
+Extra charges,Ghana,Engagement and awareness,0.11896,0.01092,0.27866
+Extra charges,Ghana,Economic beliefs,0.02528,0.0,0.12575
+Extra charges,Ghana,Plastic use,0.02475,0.0,0.09858
+Extra charges,Ghana,Harm beliefs,0.9138,0.75003,1.13692
+Extra charges,Ghana,Recycling beliefs,0.31043,0.15602,0.46297
+Biodegradable alternatives,Nigeria,Demographics,0.33705,0.19897,0.50728
+Biodegradable alternatives,Nigeria,Engagement and awareness,0.14828,0.06116,0.27918
+Biodegradable alternatives,Nigeria,Economic beliefs,0.24908,0.08184,0.41288
+Biodegradable alternatives,Nigeria,Plastic use,0.13118,0.0521,0.24073
+Biodegradable alternatives,Nigeria,Harm beliefs,1.58661,1.33202,1.83138
+Biodegradable alternatives,Nigeria,Recycling beliefs,0.19676,0.10614,0.31754
+Biodegradable alternatives,Ghana,Demographics,0.30197,0.13523,0.54715
+Biodegradable alternatives,Ghana,Engagement and awareness,0.18655,0.02575,0.45919
+Biodegradable alternatives,Ghana,Economic beliefs,0.07775,0.0,0.36176
+Biodegradable alternatives,Ghana,Plastic use,0.00147,0.0,0.01539
+Biodegradable alternatives,Ghana,Harm beliefs,1.26333,0.91128,1.65512
+Biodegradable alternatives,Ghana,Recycling beliefs,0.22988,0.05807,0.50978

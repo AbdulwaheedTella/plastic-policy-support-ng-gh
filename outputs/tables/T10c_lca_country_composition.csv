@@ -1,0 +1,4 @@
+"class","Nigeria_n","Ghana_n","Nigeria_pct","Ghana_pct","Nigeria_pct_postweighted","Ghana_pct_postweighted","class_size_pct","mean_posterior","chi2","df","p","cramers_v","selected_k"
+1,254,190,53.5,74.2,51.7,67.9,57.4,0.881,30.04,2,2.99e-07,0.203,3
+2,128,39,26.9,15.2,29.1,21.6,26.5,0.829,30.04,2,2.99e-07,0.203,3
+3,93,27,19.6,10.5,19.2,10.5,16.1,0.968,30.04,2,2.99e-07,0.203,3

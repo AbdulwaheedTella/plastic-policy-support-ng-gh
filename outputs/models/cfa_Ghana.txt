@@ -1,0 +1,158 @@
+lavaan 0.7-3 ended normally after 84 iterations
+
+  Estimator                                         ML
+  Optimization method                           NLMINB
+  Number of model parameters                        58
+
+                                                  Used       Total
+  Number of observations                           255         259
+  Number of missing patterns                        29            
+
+Model Test User Model:
+                                              Standard      Scaled
+  Test Statistic                               422.741     326.226
+  Degrees of freedom                               131         131
+  P-value (Chi-square)                           0.000       0.000
+  Scaling correction factor                                  1.296
+    Yuan-Bentler correction (Mplus variant)                       
+
+Model Test Baseline Model:
+
+  Test statistic                              4769.731    3221.868
+  Degrees of freedom                               153         153
+  P-value                                        0.000       0.000
+  Scaling correction factor                                  1.480
+
+User Model versus Baseline Model:
+
+  Comparative Fit Index (CFI)                    0.937       0.936
+  Tucker-Lewis Index (TLI)                       0.926       0.926
+                                                                  
+  Robust Comparative Fit Index (CFI)                         0.947
+  Robust Tucker-Lewis Index (TLI)                            0.938
+
+Loglikelihood and Information Criteria:
+
+  Loglikelihood user model (H0)              -5128.897   -5128.897
+  Scaling correction factor                                  1.662
+      for the MLR correction                                      
+  Loglikelihood unrestricted model (H1)      -4917.526   -4917.526
+  Scaling correction factor                                  1.408
+      for the MLR correction                                      
+                                                                  
+  Akaike (AIC)                               10373.794   10373.794
+  Bayesian (BIC)                             10579.187   10579.187
+  Sample-size adjusted Bayesian (SABIC)      10395.313   10395.313
+
+Root Mean Square Error of Approximation:
+
+  RMSEA                                          0.093       0.076
+  90 Percent confidence interval - lower         0.084       0.067
+  90 Percent confidence interval - upper         0.103       0.086
+  P-value H_0: RMSEA <= 0.050                    0.000       0.000
+  P-value H_0: RMSEA >= 0.080                    0.987       0.268
+                                                                  
+  Robust RMSEA                                               0.088
+  90 Percent confidence interval - lower                     0.076
+  90 Percent confidence interval - upper                     0.101
+  P-value H_0: Robust RMSEA <= 0.050                         0.000
+  P-value H_0: Robust RMSEA >= 0.080                         0.870
+
+Standardized Root Mean Square Residual:
+
+  SRMR                                           0.041       0.041
+
+Goodness of Fit Index:
+
+  Goodness of Fit Index (GFI)                    0.887            
+  90 Percent confidence interval - lower         0.865            
+  90 Percent confidence interval - upper         0.908            
+                                                                  
+  Robust GFI                                                 0.898
+  90 Percent confidence interval - lower                     0.871
+  90 Percent confidence interval - upper                     0.923
+
+Parameter Estimates:
+
+  Standard errors                             Sandwich
+  Information bread                           Observed
+  Observed information based on                Hessian
+
+Latent Variables:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+  HARM =~                                                               
+    flood             1.000                               1.224    0.889
+    erosion           0.560    0.057    9.813    0.000    0.685    0.510
+    vector            0.966    0.025   38.852    0.000    1.182    0.879
+    infiltration      0.821    0.047   17.422    0.000    1.004    0.737
+    buildings         0.635    0.054   11.805    0.000    0.777    0.600
+    toxic             0.925    0.031   29.624    0.000    1.132    0.844
+    microbes          0.892    0.034   26.030    0.000    1.092    0.857
+    nutrients         0.870    0.043   20.021    0.000    1.064    0.816
+    bags_billions     0.980    0.026   37.196    0.000    1.200    0.913
+    waterways_tons    0.986    0.025   38.898    0.000    1.207    0.944
+    aquatic           1.035    0.024   42.702    0.000    1.266    0.951
+    food              0.784    0.051   15.399    0.000    0.959    0.742
+    terrestrial       0.870    0.050   17.235    0.000    1.064    0.819
+    harmful_env       1.029    0.022   46.737    0.000    1.260    0.961
+  SUPPORT =~                                                            
+    polluter_pays     1.000                               0.974    0.845
+    legal             1.014    0.040   25.574    0.000    0.988    0.832
+    biodeg_alt        0.980    0.074   13.256    0.000    0.954    0.815
+    cheap_bioplstc    0.838    0.076   10.979    0.000    0.817    0.622
+
+Covariances:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+ .bags_billions ~~                                                      
+   .waterways_tons    0.100    0.031    3.223    0.001    0.100    0.441
+ .aquatic ~~                                                            
+   .terrestrial       0.056    0.043    1.320    0.187    0.056    0.183
+ .biodeg_alt ~~                                                         
+   .cheap_bioplstc    0.293    0.077    3.794    0.000    0.293    0.421
+  HARM ~~                                                               
+    SUPPORT           0.979    0.155    6.303    0.000    0.822    0.822
+
+Intercepts:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+   .flood             4.111    0.086   47.647    0.000    4.111    2.986
+   .erosion           3.273    0.085   38.303    0.000    3.273    2.438
+   .vector            4.028    0.085   47.540    0.000    4.028    2.996
+   .infiltration      3.759    0.086   43.551    0.000    3.759    2.760
+   .buildings         3.242    0.082   39.672    0.000    3.242    2.504
+   .toxic             3.784    0.085   44.616    0.000    3.784    2.820
+   .microbes          3.897    0.081   48.187    0.000    3.897    3.058
+   .nutrients         3.781    0.083   45.805    0.000    3.781    2.898
+   .bags_billions     4.128    0.083   49.652    0.000    4.128    3.140
+   .waterways_tons    4.162    0.081   51.446    0.000    4.162    3.258
+   .aquatic           4.181    0.084   49.664    0.000    4.181    3.141
+   .food              3.602    0.082   44.059    0.000    3.602    2.789
+   .terrestrial       3.902    0.082   47.421    0.000    3.902    3.001
+   .harmful_env       4.287    0.083   51.706    0.000    4.287    3.271
+   .polluter_pays     4.005    0.074   53.901    0.000    4.005    3.473
+   .legal             3.924    0.077   51.209    0.000    3.924    3.304
+   .biodeg_alt        4.187    0.076   55.200    0.000    4.187    3.577
+   .cheap_bioplstc    3.831    0.084   45.475    0.000    3.831    2.920
+
+Variances:
+                   Estimate  Std.Err  z-value  P(>|z|)   Std.lv  Std.all
+   .flood             0.398    0.084    4.769    0.000    0.398    0.210
+   .erosion           1.334    0.107   12.414    0.000    1.334    0.740
+   .vector            0.410    0.085    4.833    0.000    0.410    0.227
+   .infiltration      0.847    0.116    7.279    0.000    0.847    0.457
+   .buildings         1.073    0.096   11.221    0.000    1.073    0.640
+   .toxic             0.519    0.064    8.068    0.000    0.519    0.288
+   .microbes          0.432    0.074    5.804    0.000    0.432    0.266
+   .nutrients         0.570    0.079    7.254    0.000    0.570    0.335
+   .bags_billions     0.289    0.080    3.595    0.000    0.289    0.167
+   .waterways_tons    0.176    0.033    5.427    0.000    0.176    0.108
+   .aquatic           0.169    0.045    3.771    0.000    0.169    0.095
+   .food              0.749    0.081    9.282    0.000    0.749    0.449
+   .terrestrial       0.557    0.090    6.171    0.000    0.557    0.330
+   .harmful_env       0.131    0.037    3.503    0.000    0.131    0.076
+   .polluter_pays     0.381    0.090    4.245    0.000    0.381    0.286
+   .legal             0.435    0.073    5.963    0.000    0.435    0.308
+   .biodeg_alt        0.460    0.082    5.576    0.000    0.460    0.336
+   .cheap_bioplstc    1.054    0.145    7.252    0.000    1.054    0.613
+    HARM              1.497    0.185    8.085    0.000    1.000    1.000
+    SUPPORT           0.949    0.159    5.958    0.000    1.000    1.000
+

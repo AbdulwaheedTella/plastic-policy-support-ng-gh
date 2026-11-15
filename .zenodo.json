@@ -1,0 +1,26 @@
+{
+  "title": "What explains public support for plastic policy? A comparative study of Nigeria and Ghana: data, code and outputs",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "description": "<p>De-identified survey data, analysis code and every output for the article <em>What explains public support for plastic policy? A comparative study of Nigeria and Ghana</em>.</p><p>Contents: the merged, de-identified survey file (740 respondents: Nigeria 481, Ghana 259; 70 variables) with a data dictionary; the open-ended codebook and a 120-answer coder validation sample; a single Jupyter notebook (Python 3.13 and R 4.3.3, fixed random seeds, pinned package versions) that reproduces every table and figure; and all tables (CSV and Excel), figures (600-dpi PNG and TIFF, vector PDF), lavaan model summaries and R logs.</p><p>The raw Google Forms exports are not included because they contain exact submission times and free-text occupations; the notebook runs from the de-identified file.</p><p>Licences: code MIT; data, outputs and documentation CC BY 4.0 (see LICENSE and LICENSE-DATA).</p>",
+  "creators": [
+    {"name": "Saba, Abdulwakil Olawale", "orcid": "0000-0002-0329-9664", "affiliation": "Universiti Putra Malaysia; Lagos State University"},
+    {"name": "Mohammed, Mutala", "orcid": "0000-0001-6857-4893", "affiliation": "CSIR - Institute of Industrial Research, Ghana"},
+    {"name": "Ibrahim, Musa Adamu", "orcid": "0000-0002-2937-8774", "affiliation": "University of Maiduguri"},
+    {"name": "Tella, Abdulwaheed", "orcid": "0000-0002-4380-3343", "affiliation": "Monash University Malaysia"},
+    {"name": "Amachree, Dokuboba", "orcid": "0009-0005-2666-6622", "affiliation": "University of Plymouth; Rivers State University"}
+  ],
+  "license": "cc-by-4.0",
+  "keywords": [
+    "plastic pollution",
+    "policy support",
+    "measurement invariance",
+    "structural equation modelling",
+    "latent class analysis",
+    "SHAP",
+    "transfer learning",
+    "Nigeria",
+    "Ghana"
+  ],
+  "access_right": "open"
+}

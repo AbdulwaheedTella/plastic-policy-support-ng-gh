@@ -1,0 +1,5 @@
+"model","chisq.scaled","df.scaled","pvalue.scaled","cfi.robust","tli.robust","rmsea.robust","rmsea.ci.lower.robust","rmsea.ci.upper.robust","srmr"
+"Main",1474.8279,648,0,0.9355,0.9277,0.0653,0.0608,0.0698,0.0452
+"Alternative specification",1509.2419,669,0,0.9347,0.9291,0.0646,0.0602,0.0691,0.0461
+"Random intercept",2661.8616,858,0,0.8756,0.8652,0.0818,0.0781,0.0854,0.0879
+"Ordinal WLSMV",1156.0626,664,0,0.981,0.9868,0.0538,0.0486,0.0589,0.0487

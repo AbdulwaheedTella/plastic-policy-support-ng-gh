@@ -1,0 +1,75 @@
+Factor Analysis using method =  wls
+Call: fa(r = pc, nfactors = 3, n.obs = sum(complete.cases(d[, efa_items])), 
+    rotate = "oblimin", fm = "wls")
+Standardized loadings (pattern matrix) based upon correlation matrix
+                 item  WLS2  WLS3  WLS1   h2    u2 com
+toxic               6  0.87             0.76 0.239 1.0
+buildings           5  0.86             0.60 0.398 1.2
+vector              3  0.85             0.76 0.241 1.0
+nutrients           8  0.85             0.76 0.240 1.0
+terrestrial        13  0.84             0.78 0.218 1.1
+microbes            7  0.84             0.76 0.240 1.0
+aquatic            11  0.83             0.91 0.094 1.1
+food               12  0.82             0.60 0.403 1.0
+flood               1  0.81             0.75 0.248 1.0
+erosion             2  0.80             0.56 0.442 1.2
+infiltration        4  0.80             0.69 0.312 1.0
+harmful_env        14  0.80             0.91 0.089 1.2
+waterways_tons     10  0.77             0.91 0.087 1.2
+bags_billions       9  0.74             0.86 0.141 1.3
+polluter_pays      18        0.87       0.76 0.235 1.0
+everybody          17        0.81       0.92 0.078 1.1
+legal              19        0.81       0.69 0.307 1.0
+biodeg_alt         20        0.73       0.75 0.246 1.2
+cheap_bioplastic   21        0.72       0.58 0.417 1.3
+gov_resp           16        0.44       0.17 0.833 1.1
+charges            15        0.36       0.34 0.656 1.9
+cheaper_plastic    22        0.33  0.49 0.26 0.740 2.1
+
+                       WLS2 WLS3 WLS1
+SS loadings           10.17 4.26 0.66
+Proportion Var         0.46 0.19 0.03
+Cumulative Var         0.46 0.66 0.69
+Proportion Explained   0.67 0.28 0.04
+Cumulative Proportion  0.67 0.96 1.00
+
+ With factor correlations of 
+      WLS2  WLS3  WLS1
+WLS2  1.00  0.77 -0.10
+WLS3  0.77  1.00 -0.15
+WLS1 -0.10 -0.15  1.00
+
+Mean item complexity =  1.2
+Test of the hypothesis that 3 factors are sufficient.
+
+df null model =  231  with the objective function =  25.52 with Chi Square =  13214.07
+df of  the model are 168  and the objective function was  2.62 
+
+The root mean square of the residuals (RMSR) is  0.02 
+The df corrected root mean square of the residuals is  0.03 
+
+The harmonic n.obs is  527 with the empirical chi square  130.05  with prob <  0.99 
+The total n.obs was  527  with Likelihood Chi Square =  1349.77  with prob <  1.5e-183 
+
+Tucker Lewis Index of factoring reliability =  0.874
+RMSEA index =  0.116  and the 90 % confidence intervals are  0.11 0.121
+BIC =  296.88
+Fit based upon off diagonal values = 1
+Measures of factor score adequacy             
+                                                  WLS2 WLS3 WLS1
+Correlation of (regression) scores with factors   0.87 0.82 0.80
+Multiple R square of scores with factors          0.75 0.67 0.63
+Minimum correlation of possible factor scores     0.50 0.35 0.27
+$parallel_nfact
+[1] 3
+
+$efa
+$efa$Vaccounted
+                            WLS2      WLS3       WLS1
+SS loadings           10.1731995 4.2597651 0.66379624
+Proportion Var         0.4624182 0.1936257 0.03017256
+Cumulative Var         0.4624182 0.6560438 0.68621640
+Proportion Explained   0.6738664 0.2821642 0.04396945
+Cumulative Proportion  0.6738664 0.9560306 1.00000000
+
+

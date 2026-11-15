@@ -1,0 +1,5 @@
+outcome,model,gap_sd_ghana_minus_nigeria,ci_lo,ci_hi,p,n,share_of_gap_removed_pct
+Harm perception,Unadjusted,0.2613,0.1113,0.4112,0.0006,697,0.0
+Harm perception,Adjusted for response-style indices,0.2067,0.0644,0.3491,0.0044,697,20.8686
+Regulation and substitutes,Unadjusted,0.3276,0.1787,0.4765,0.0,684,0.0
+Regulation and substitutes,Adjusted for response-style indices,0.27,0.1305,0.4096,0.0001,684,17.5792

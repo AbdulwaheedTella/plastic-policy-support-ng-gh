@@ -1,0 +1,25 @@
+subset,outcome,Nigeria_n,Nigeria_mean,Ghana_n,Ghana_mean,r_rb_GH_minus_NG,p,q_bh_within_subset
+All respondents,Harm perception (mean of 14),467,3.5171,255,3.8647,0.1825,0.0,0.0001
+All respondents,Regulation and substitutes (mean of 4),449,3.6258,246,4.0169,0.2147,0.0,0.0
+All respondents,Shared responsibility,450,3.9778,251,4.3904,0.1714,0.0,0.0
+All respondents,Extra charges,431,3.051,249,3.3655,0.1239,0.0059,0.0071
+All respondents,Government responsibility,441,2.8095,248,2.8468,0.0127,0.7757,0.7757
+All respondents,Make plastic cheaper,429,2.5967,240,2.0917,-0.2332,0.0,0.0
+Excluding uniform-disagreement class,Harm perception (mean of 14),376,3.9988,228,4.1566,0.1455,0.0027,0.004
+Excluding uniform-disagreement class,Regulation and substitutes (mean of 4),370,4.0881,225,4.2607,0.1654,0.0006,0.0019
+Excluding uniform-disagreement class,Shared responsibility,370,4.5568,227,4.7181,0.12,0.0024,0.004
+Excluding uniform-disagreement class,Extra charges,359,3.3621,225,3.5556,0.0856,0.0735,0.0882
+Excluding uniform-disagreement class,Government responsibility,365,3.0521,224,2.9911,-0.0256,0.5925,0.5925
+Excluding uniform-disagreement class,Make plastic cheaper,359,2.727,219,2.0959,-0.284,0.0,0.0
+Within consistent supporters,Harm perception (mean of 14),249,4.2273,189,4.2937,0.0557,0.3176,0.4826
+Within consistent supporters,Regulation and substitutes (mean of 4),246,4.3499,186,4.4301,0.1074,0.0519,0.1557
+Within consistent supporters,Shared responsibility,246,4.7805,188,4.8191,0.0387,0.3217,0.4826
+Within consistent supporters,Extra charges,238,3.5924,186,3.672,0.0306,0.5753,0.5753
+Within consistent supporters,Government responsibility,243,3.1605,185,3.0432,-0.0455,0.4062,0.4874
+Within consistent supporters,Make plastic cheaper,236,2.7839,181,2.0939,-0.2664,0.0,0.0
+Within moderate supporters,Harm perception (mean of 14),127,3.5509,39,3.4923,0.0139,0.8969,0.8969
+Within moderate supporters,Regulation and substitutes (mean of 4),124,3.5685,39,3.453,-0.0933,0.3741,0.7483
+Within moderate supporters,Shared responsibility,124,4.1129,39,4.2308,0.0922,0.3502,0.7483
+Within moderate supporters,Extra charges,121,2.9091,39,3.0,0.0434,0.6753,0.846
+Within moderate supporters,Government responsibility,122,2.8361,39,2.7436,-0.0391,0.705,0.846
+Within moderate supporters,Make plastic cheaper,123,2.6179,38,2.1053,-0.3171,0.0016,0.0097

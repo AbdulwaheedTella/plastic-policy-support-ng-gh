@@ -1,0 +1,4 @@
+class,n,reversed_item_mean,reversed_item_disagree_pct,sees_wealth_yes_pct,sees_wealth_yes_or_maybe_pct,prefers_recycling_pct,indiv_sd,extreme_share,midpoint_share,longest_run,class_name
+1,444,3.019,41.706,91.364,96.591,90.315,1.175,0.561,0.086,7.471,Consistent supporters
+2,167,3.037,37.267,74.699,88.554,83.832,1.111,0.297,0.238,5.449,Moderate supporters
+3,120,1.716,89.474,74.576,90.678,84.874,0.628,0.663,0.091,9.2,Uniform disagreement

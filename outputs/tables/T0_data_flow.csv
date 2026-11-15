@@ -1,0 +1,9 @@
+step,Nigeria,Ghana
+Responses exported,482,259
+Excluded: submitted after 31 Dec 2023,1,0
+Quality flag (kept): flag_no_likert,6,3
+Quality flag (kept): flag_straightline,11,6
+Quality flag (kept): flag_harm_all_sd,9,5
+Quality flag (kept): flag_inconsistent,2,1
+Quality flag (kept): flag_any_quality,26,13
+Analytic sample,481,259

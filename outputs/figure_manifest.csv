@@ -1,0 +1,12 @@
+figure,width_px,height_px,dpi
+Fig1_study_area.png,4329,3969,600
+Fig2_likert_diverging.png,4329,5045,600
+Fig3_sem_paths.png,4329,1809,600
+Fig4_latent_classes.png,4329,2045,600
+Fig5_ml_within_vs_transfer.png,4329,2405,600
+Fig6_shap_importance.png,4348,3005,600
+Fig7_text_wealth_pathways.png,4393,2345,600
+FigS1_binary_items.png,4329,3725,600
+FigS2_sem_robustness.png,4329,1805,600
+FigS3_shap_harm_dependence.png,4329,1565,600
+FigS4_shap_top_features.png,4541,5889,600

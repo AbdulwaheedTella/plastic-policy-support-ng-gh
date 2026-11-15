@@ -1,0 +1,7 @@
+"model","chisq.scaled","df.scaled","pvalue.scaled","cfi.robust","tli.robust","rmsea.robust","rmsea.ci.lower.robust","rmsea.ci.upper.robust","srmr"
+"Pooled no residual covariances",710.4591,134,0,0.932,0.9224,0.0973,0.0903,0.1044,0.0344
+"Pooled final",545.612,131,0,0.9512,0.943,0.0833,0.0762,0.0906,0.0356
+"Nigeria no residual covariances",501.5844,134,0,0.9317,0.922,0.0968,0.0879,0.1058,0.036
+"Nigeria final",390.4566,131,0,0.9517,0.9436,0.0823,0.0731,0.0916,0.0402
+"Ghana no residual covariances",383.1066,134,0,0.9307,0.9208,0.1001,0.088,0.1123,0.0446
+"Ghana final",326.226,131,0,0.947,0.9382,0.0885,0.0759,0.1011,0.0411

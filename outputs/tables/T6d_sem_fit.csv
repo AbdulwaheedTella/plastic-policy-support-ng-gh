@@ -1,0 +1,2 @@
+"model","chisq.scaled","df.scaled","pvalue.scaled","cfi.robust","tli.robust","rmsea.robust","rmsea.ci.lower.robust","rmsea.ci.upper.robust","srmr","omnibus_wald_paths_equal","omnibus_df","omnibus_p","lrt_chisq_diff","lrt_df","lrt_p","delta_cfi_constrained"
+"Multi-group SEM (partial scalar measurement)",1474.8279,648,0,0.9355,0.9277,0.0653,0.0608,0.0698,0.0452,34.634,15,0.00277,35.216,15,0.00229,-0.0016

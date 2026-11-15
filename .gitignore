@@ -1,0 +1,23 @@
+# Raw survey exports are never published (exact timestamps, free-text occupations)
+data/raw/*
+!data/raw/README.md
+
+# Local snapshot made by compare_tables.py --snapshot
+published_tables/
+
+# Python / Jupyter
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,12 @@
+# Keep text files with LF line endings on every platform, so a fresh clone is byte-identical
+* text=auto eol=lf
+
+# Binary files
+*.xlsx binary
+*.png  binary
+*.tif  binary
+*.pdf  binary
+
+# Data tables are stored exactly as produced (some have CRLF line endings); never convert them
+*.csv -text
+*.geojson -text
