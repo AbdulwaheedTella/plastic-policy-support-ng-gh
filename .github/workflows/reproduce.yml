@@ -1,6 +1,6 @@
 # Re-runs the whole analysis on a clean machine and checks every table against the published copy.
 # Start it by hand: GitHub > Actions > "Reproduce the analysis" > Run workflow.
-# A full run takes about 2 to 3 hours. The regenerated outputs are attached to the run as an artifact.
+# A full run takes about 25 minutes. The regenerated outputs are attached to the run as an artifact.
 name: Reproduce the analysis
 
 on:

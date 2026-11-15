@@ -44,9 +44,9 @@ Nothing needs to be set by hand:
 
 ## Getting exactly the published numbers
 
-`compare_tables.py` compares every CSV in `outputs/tables/` with the snapshot, allowing only floating-point noise (relative tolerance 1e-6).
+`compare_tables.py` compares every CSV in `outputs/tables/` with the snapshot. It reports each table as *same*, *same\** (identical apart from row order), *rounding* (one unit in the last rounded decimal, from a value sitting on a rounding boundary) or *DIFFERS*.
 
-* **Exact match.** Use Linux with Python 3.13, the versions in `requirements.txt`, R 4.3.3 and lavaan 0.7-3, semTools 0.5-10, psych 2.6.9, GPArotation 2026.8-2, poLCA 1.6.0.2 and nnet 7.3-19. The GitHub Actions workflow in `.github/workflows/reproduce.yml` does exactly this on a clean machine: open the **Actions** tab, choose *Reproduce the analysis* and click *Run workflow*.
+* **Exact match.** Use Linux with Python 3.13, the versions in `requirements.txt`, R 4.3.3 and lavaan 0.7-3, semTools 0.5-10, psych 2.6.9, GPArotation 2026.8-2, poLCA 1.6.0.2 and nnet 7.3-19. The GitHub Actions workflow in `.github/workflows/reproduce.yml` does exactly this on a clean machine: open the **Actions** tab, choose *Reproduce the analysis* and click *Run workflow* (about 25 minutes). Its first run (15 November 2026) reproduced all 48 tables: 44 byte-identical, 2 identical apart from the order of tied or alphabetically sorted rows (T6e, T11c), and 2 with one standardised coefficient of 0.088 instead of 0.087 (T6a, T7a; Ghana, norm → make plastic cheaper).
 * **Other operating systems.** The descriptive statistics, SEM, invariance tests, latent class analysis, logistic regression, random forest and text coding come out the same. XGBoost does not give bit-identical results across operating systems, so on Windows or macOS the XGBoost rows of Tables T8a-T8b and the SHAP tables T9a-T9d (Fig. 5, Fig. 6, Fig. S3, Fig. S4) typically differ in the second or third decimal place, and the Monte Carlo confidence limits for indirect effects (T6e) in the third. `compare_tables.py` will report these tables as different.
 * **Newer R packages.** The notebook installs the newest CRAN release of each R package. If a release newer than those listed above changes results, install the listed versions with `remotes::install_version()`.
 
