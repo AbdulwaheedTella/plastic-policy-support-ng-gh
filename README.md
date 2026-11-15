@@ -9,7 +9,7 @@ Data, code and every output for the article:
 >
 > Abdulwakil Olawale Saba, Mutala Mohammed, Musa Adamu Ibrahim, Abdulwaheed Tella, Dokuboba Amachree
 
-One Jupyter notebook takes the de-identified survey data (740 respondents: Nigeria 481, Ghana 259) to every table and figure in the paper. All random steps use a fixed seed, so a full run reproduces the published numbers.
+One Jupyter notebook takes the de-identified survey data (740 respondents: Nigeria 481, Ghana 259) to every table and figure in the paper. All random steps use a fixed seed (20231101). The published outputs in `outputs/` were produced on Ubuntu 24.04 with Python 3.13 and R 4.3.3.
 
 ## Quick start
 
@@ -23,8 +23,6 @@ python -m venv .venv
 # Windows: .venv\Scripts\activate      macOS/Linux: source .venv/bin/activate
 pip install -r requirements.txt
 
-Rscript install_R_packages.R          # once; installs the exact R package versions used
-
 python compare_tables.py --snapshot   # keep a copy of the published tables for checking
 jupyter notebook Plastic_NG_GH_analysis.ipynb   # then Kernel > Restart & Run All
 python compare_tables.py              # check that your run matches the published tables
@@ -37,9 +35,20 @@ jupyter nbconvert --to notebook --execute --inplace --ExecutePreprocessor.timeou
 ```
 
 * **Run time.** A full run takes 1.5 to 2 hours on a laptop, mostly in the SEM sensitivity checks and the machine-learning bootstraps. Set `QUICK = True` in the first code cell for a 10-minute test run with fewer bootstrap draws (the bootstrap-based numbers then differ slightly from the paper).
-* **Rscript not found** (common on Windows): set `RSCRIPT` in the first code cell to its full path, for example `r"C:\Program Files\R\R-4.3.3\bin\Rscript.exe"`.
-* **Windows and R packages.** `install_R_packages.R` builds the pinned versions from source. Packages with compiled code (`poLCA`, `nnet`) need [Rtools](https://cran.r-project.org/bin/windows/Rtools/) matching your R version.
-* **Checking your run.** `compare_tables.py` compares every CSV in `outputs/tables/` with the snapshot, allowing only floating-point noise (relative tolerance 1e-6). The paper's results were produced on Ubuntu 24.04 with Python 3.13 and R 4.3.3; other operating systems may differ in the last decimal places.
+Nothing needs to be set by hand:
+
+* **Folder.** The notebook and every R script find the project folder by themselves (the folder holding `data/processed/survey_merged_deidentified.csv`). Everything is read from and saved into this one folder.
+* **R.** The notebook finds `Rscript` on your PATH or in the usual install folders. Only if R is somewhere unusual, set `RSCRIPT` in the first code cell to its full path, for example `r"C:\Program Files\R\R-4.3.3\bin\Rscript.exe"`.
+* **R packages.** At the start, the notebook installs any missing R package (lavaan, semTools, psych, GPArotation, poLCA, nnet) as a ready-made binary into `r_library/` inside the project folder. No administrator rights and no Rtools are needed; the first run needs internet. You can also run `install_R_packages.R` once yourself in R or RStudio.
+* **Running an R step on its own.** Open any script in `r_scripts/` in RStudio and click *Source*, or run `Rscript r_scripts/03_latent_classes.R`. Run `03_latent_classes.R` before `05_lca_invariance.R`.
+
+## Getting exactly the published numbers
+
+`compare_tables.py` compares every CSV in `outputs/tables/` with the snapshot, allowing only floating-point noise (relative tolerance 1e-6).
+
+* **Exact match.** Use Linux with Python 3.13, the versions in `requirements.txt`, R 4.3.3 and lavaan 0.7-3, semTools 0.5-10, psych 2.6.9, GPArotation 2026.8-2, poLCA 1.6.0.2 and nnet 7.3-19. The GitHub Actions workflow in `.github/workflows/reproduce.yml` does exactly this on a clean machine: open the **Actions** tab, choose *Reproduce the analysis* and click *Run workflow*.
+* **Other operating systems.** The descriptive statistics, SEM, invariance tests, latent class analysis, logistic regression, random forest and text coding come out the same. XGBoost does not give bit-identical results across operating systems, so on Windows or macOS the XGBoost rows of Tables T8a-T8b and the SHAP tables T9a-T9d (Fig. 5, Fig. 6, Fig. S3, Fig. S4) typically differ in the second or third decimal place, and the Monte Carlo confidence limits for indirect effects (T6e) in the third. `compare_tables.py` will report these tables as different.
+* **Newer R packages.** The notebook installs the newest CRAN release of each R package. If a release newer than those listed above changes results, install the listed versions with `remotes::install_version()`.
 
 ## What the notebook does
 
@@ -68,7 +77,8 @@ The R code is shown inside the notebook. Each R step is written to `r_scripts/` 
 | `outputs/figures/` | Every figure as 600-dpi PNG, 600-dpi LZW TIFF and vector PDF |
 | `outputs/models/`, `outputs/logs/` | Full lavaan model summaries, R session information and R logs |
 | `docs/` | Data dictionary, open-ended codebook, and a 120-answer sample for two human coders |
-| `r_scripts/` | The R scripts, re-written by the notebook each time it runs |
+| `r_scripts/` | The R steps. `00_setup.R` finds the folder and loads packages; the notebook rewrites these files each time it runs |
+| `r_library/` | R packages installed by the notebook (created on first run, not in the repository, safe to delete) |
 
 ## Raw data
 

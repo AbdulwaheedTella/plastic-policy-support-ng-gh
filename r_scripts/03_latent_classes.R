@@ -1,7 +1,21 @@
-# Latent class analysis of policy orientations (pooled sample). Called as: Rscript 03_latent_classes.R <project folder>
-suppressPackageStartupMessages({ library(poLCA); library(nnet) })
+# Latent class analysis of policy orientations (pooled sample). Run from the notebook, with Rscript, or with source() in RStudio
+# ---- find the project folder and load packages (details in r_scripts/00_setup.R; nothing to edit) ----
+local({
+  here <- c(gsub("~+~", " ", sub("^--file=", "", grep("^--file=", commandArgs(FALSE), value = TRUE)), fixed = TRUE),
+            unlist(lapply(sys.frames(), function(f) f$ofile)),
+            tryCatch(rstudioapi::getSourceEditorContext()$path, error = function(e) NULL))
+  for (d in c(dirname(here[nzchar(here)]), getwd())) {
+    d <- normalizePath(d, winslash = "/", mustWork = FALSE)
+    for (k in 1:6) {
+      f <- file.path(d, c("00_setup.R", "r_scripts/00_setup.R", "Plastic_NG_GH_project/r_scripts/00_setup.R"))
+      if (any(file.exists(f))) { source(f[file.exists(f)][1], local = globalenv()); return(invisible()) }
+      d <- dirname(d)
+    }
+  }
+  stop("Cannot find r_scripts/00_setup.R. Run this script from inside the project folder (the one that contains data/processed/).")
+})
+use_packages(c("poLCA", "nnet"))
 set.seed(20231101)
-root <- commandArgs(trailingOnly = TRUE)[1]; tab <- file.path(root, "outputs", "tables")
 d <- read.csv(file.path(root, "data", "processed", "survey_merged_deidentified.csv"))
 d <- d[d$flag_no_likert == 0, ]
 harm <- c("flood", "erosion", "vector", "infiltration", "buildings", "toxic", "microbes", "nutrients",

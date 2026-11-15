@@ -1,4 +1,4 @@
-# Measurement model, invariance and multi-group SEM. Called as: Rscript 04_measurement_sem.R <project folder>
+# Measurement model, invariance and multi-group SEM. Run from the notebook, with Rscript, or with source() in RStudio
 #
 # Inputs : data/processed/survey_merged_deidentified.csv
 # Outputs: outputs/tables/T4_* to T9_*, outputs/models/*.txt
@@ -6,12 +6,23 @@
 # Main estimator: robust maximum likelihood (MLR) with full-information ML for missing data,
 # treating 5-point items as continuous (Rhemtulla et al., 2012). Ordinal invariance (WLSMV,
 # Wu & Estabrook, 2016) and an ordinal structural model are run as robustness checks.
-suppressPackageStartupMessages({
-  library(lavaan); library(semTools); library(psych)
+# ---- find the project folder and load packages (details in r_scripts/00_setup.R; nothing to edit) ----
+local({
+  here <- c(gsub("~+~", " ", sub("^--file=", "", grep("^--file=", commandArgs(FALSE), value = TRUE)), fixed = TRUE),
+            unlist(lapply(sys.frames(), function(f) f$ofile)),
+            tryCatch(rstudioapi::getSourceEditorContext()$path, error = function(e) NULL))
+  for (d in c(dirname(here[nzchar(here)]), getwd())) {
+    d <- normalizePath(d, winslash = "/", mustWork = FALSE)
+    for (k in 1:6) {
+      f <- file.path(d, c("00_setup.R", "r_scripts/00_setup.R", "Plastic_NG_GH_project/r_scripts/00_setup.R"))
+      if (any(file.exists(f))) { source(f[file.exists(f)][1], local = globalenv()); return(invisible()) }
+      d <- dirname(d)
+    }
+  }
+  stop("Cannot find r_scripts/00_setup.R. Run this script from inside the project folder (the one that contains data/processed/).")
 })
+use_packages(c("lavaan", "semTools", "psych", "GPArotation"))
 set.seed(20231101)
-root <- commandArgs(trailingOnly = TRUE)[1]
-tab <- file.path(root, "outputs", "tables"); mod <- file.path(root, "outputs", "models")
 d <- read.csv(file.path(root, "data", "processed", "survey_merged_deidentified.csv"))
 d$country <- factor(d$country, levels = c("Nigeria", "Ghana"))
 d$female  <- ifelse(is.na(d$gender), NA, as.numeric(d$gender == "Female"))
