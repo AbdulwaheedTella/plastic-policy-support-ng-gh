@@ -1,7 +1,6 @@
 # Public support for plastic policy in Nigeria and Ghana
 
-<!-- After the first Zenodo release, replace XXXXXXX below with the concept record number and delete this line. -->
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24332721.svg)](https://doi.org/10.5281/zenodo.24332721)
 
 Data, code and every output for the article:
 
